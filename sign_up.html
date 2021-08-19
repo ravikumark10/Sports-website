@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign up</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="signup">
+            <h1>Sign up</h1>
+            <form onsubmit="return validate();" action="sign_up.php" method="POST">
+                <label>First Name</label>
+                <input type="text" placeholder="" name="firstName" required>
+                <label>Last Name</label>
+                <input type="text" placeholder="" name="lastName" required>
+                <label>Email</label>
+                <input type="email" placeholder="" name="email" required>
+                <label>Password</label>
+                <input id="pass1" type="password" placeholder="" name="password" required>
+                <label>Confirm Password</label>
+                <input id="pass2" type="password" placeholder="" name="confirmPassword" required>
+                <input id="s1" type="submit" value="Submit" name="Submit">
+            </form>
+            <p>Already have an account?<a href="login.html">Login here</a></p>
+        </div>
+    </body>
+    <script type="text/javascript">
+        function validate(){
+            var pass1=document.getElementById("pass1");
+            var pass2=document.getElementById("pass2");
+            if(pass1.value==pass2.value)
+            {
+                return true;
+            }
+            else{
+                pass1.style.border="3px solid red";
+                pass2.style.border="3px solid red";
+                return false;
+            }
+        }
+    </script>
+</html>

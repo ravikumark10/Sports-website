@@ -1,0 +1,101 @@
+body{
+    background: white url("bclist.jpg") scroll no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    color:white;
+    position: relative;
+    right: 100px;
+    font-size: 50px;
+}
+#l1{
+    background: white url("list1.jpg") scroll no-repeat;
+    background-size: cover;
+}
+#l2{
+    background: white url("list2.jpg") scroll no-repeat;
+    background-size: cover;
+}
+#l3{
+    background: white url("list3.jpg") scroll no-repeat;
+    background-size: cover;
+}
+#l4{
+    background: white url("list4.jpg") scroll no-repeat;
+    background-size: cover;
+}
+
+#l5{
+    background: white url("list5.jpg") scroll no-repeat;
+    background-size: cover;
+}
+
+#l6{
+    background: white url("list6.jpg") scroll no-repeat;
+    background-size: cover;
+}
+#l7{
+    background: white url("list7.jpg") scroll no-repeat;
+    background-size: cover;
+}
+
+#l8{
+    background: white url("list8.jpg") scroll no-repeat;
+    background-size: cover;
+}
+
+#l1,#l2,#l3,#l4,#l5,#l6,#l7,#l8{
+    width: 1000px;
+    height: 200px;
+    color:orange;
+    padding: 30px;
+    margin-left: 150px;
+    border: 8px solid orange;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+#l1 h3,#l2 h3,#l3 h3,#l4 h3,#l5 h3,#l6 h3,#l7 h3,#l8 h3{
+    font-size: 50px;
+}
+#l1 input[type="button"],#l2 input[type="button"],#l3 input[type="button"],
+#l4 input[type="button"],#l5 input[type="button"],#l6 input[type="button"],
+#l7 input[type="button"],#l8 input[type="button"]{
+    float: right;
+    position: relative;
+    right: 50px;
+    background-color:orange;
+    font-size: 30px;
+    color:white;
+    border: none;
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+#l1 input[type="button"]:hover,#l2 input[type="button"]:hover,#l3 input[type="button"]:hover,
+#l4 input[type="button"]:hover,#l5 input[type="button"]:hover,#l6 input[type="button"]:hover,
+#l7 input[type="button"]:hover,#l8 input[type="button"]:hover{
+    background-color:skyblue;
+    color: orangered;
+    border: 3px solid orangered;
+}
+#list{
+    text-decoration: none;
+    background-color: white;
+    color: blueviolet;
+    border: 2px solid white;
+    padding: 5px;
+    font-size: 10px;
+    float: left;
+    border-radius: 5px;
+    position: relative;
+    bottom: 2600px;
+}
+#list:hover{
+    background-color: blueviolet;
+    border: 2px solid blueviolet;
+    color: white;
+}

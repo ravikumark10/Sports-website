@@ -1,0 +1,190 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+header{
+    background: white url("header.jpg") scroll no-repeat center;
+    background-size: cover;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+header h1{
+    font-size: 50px;
+}
+footer{
+    background: white url("footer1.jpg") scroll no-repeat center;
+    background-size: cover;
+    background-size: 100% 200px;
+    padding: 10px;
+    color: rgb(144, 153, 238);
+    text-align: center;
+}
+nav{
+    background-color: blueviolet;
+    overflow: hidden;
+}
+#home1{
+    height: 50px;
+    padding-top: 10px;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: lightgreen;
+    display: inline-block;
+    font-size: 18px;
+}
+nav ul li a:hover{
+    background-color: lightgreen;
+    color: white;
+    border-radius: 15px;
+}
+nav ul li a.active{
+    background-color: blue;
+    color: white;
+}
+
+.droplist{
+    background-color: blueviolet;
+    float: right;
+    text-align: center;
+    width: 150px;
+    position: absolute;
+}
+.droplist a{
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+}
+.droplist a:hover{
+    background-color: aquamarine;
+    color: black;
+}
+.drop{
+    float: right;
+}
+section{
+    background: url("sports1.jpg") scroll no-repeat;
+    background-size: cover;
+    height: 1000px;
+    clear:both;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+#adminhome1{
+    background: url("sports2.jpg") scroll no-repeat;
+    background-size: cover;
+    height: 1000px;
+    clear:both;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+section h2{
+    font-size: 30px;
+}
+#sec1{
+    position: relative;
+    right: 500px;
+    top: 100px;
+}
+#sec1 h1{
+    color: greenyellow;
+    font-size: 50px;
+    font-style: oblique;
+}
+#sec2{
+    position: relative;
+    left: 400px;
+    top: -100px;
+}
+#sec3{
+    position: relative;
+    top: 250px;
+    left: 450px;
+}
+#sec3 input{
+    background-color: orange;
+    font-size: 30px;
+    outline: none;
+    width: 100px;
+    padding: 10px 15px;
+    border: 3px solid brown;
+    border-radius: 20px;
+    color: brown;
+}
+#b1:hover{
+    background-color: skyblue;
+    font-size: 40px;
+    outline: none;
+    width: 150px;
+    height: 80px;
+    padding: 10px 25px;
+    border: 3px solid blue ;
+    border-radius: 20px;
+    color: blue;
+}
+#student{
+    background: darkcyan  scroll no-repeat;
+    background-size: cover;
+}
+#staff{
+    margin-top: 30px;
+    
+}
+#staff a{
+    text-decoration: none;
+    background-color: beige;
+    color: blue;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid violet;
+    border-radius: 10px;
+}
+#staff a:hover{
+    background-color: aqua;
+    color: orange;
+}
+#methodstaff{
+    background: darkcyan scroll no-repeat;
+    background-size: cover;
+}
+.staff1{
+    margin: auto;
+    background-color:gray;
+    border-width: 200px;
+    padding-right: 40px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+.staff1 input[type="submit"]{
+    position: relative;
+    right: 50px;
+}
+.back{
+    text-decoration: none;
+    background-color: white;
+    color: blueviolet;
+    border: 2px solid white;
+    padding: 5px;
+    font-size: 10px;
+    margin-top: 5px;
+    float: left;
+    border-radius: 5px;
+}
+.back:hover{
+    background-color: blueviolet;
+    border: 2px solid blueviolet;
+    color: white;
+}

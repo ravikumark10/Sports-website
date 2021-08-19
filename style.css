@@ -1,0 +1,114 @@
+body{
+    background: white url("first.jpg") scroll no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.signup{
+    width: 350px;
+    height: 600px;
+    background-color: white;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 100px;
+}
+#reg{
+    height: auto;
+    width: 400px;
+    padding-left: 20px;
+    margin-bottom: 50px;
+}
+#reg1{
+    background: white url("bcreg.jpg") scroll no-repeat;
+    background-size:cover;
+}
+#reg2{
+    background: white url("bcreg.jpg") scroll no-repeat;
+    background-size:cover;
+    color: white;
+}
+.login{
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 100px;
+}
+#login1{
+    height: 400px;
+}
+#admin1{
+    height: 400px;
+}
+#a1{
+    position: relative;
+    left: 100px;
+}
+h1{
+    text-align: center;
+    padding-top: 15px;
+}
+form{
+    width: 300px;
+    margin-top: 20px;
+    padding: 10px;
+}
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+form input, select{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid skyblue;
+    border-radius: 6px;
+    outline: none;
+}
+form input:hover{
+    border: 3px solid blue;
+    background-color: aqua;
+}
+input[type="submit"]{
+    width: 150px;
+    height: 40px;
+    margin-top: 25px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    font-size: 25px;
+    padding: 3px;
+    margin-left: 75px;
+    border-radius: 10px;
+}
+input[type="submit"]:hover{
+    border: 3px solid blue;
+    background-color: aqua;
+    color: blue;
+}
+p{
+    text-align: center;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: blueviolet;
+}
+.back{
+    text-decoration: none;
+    background-color: white;
+    color: blueviolet;
+    border: 2px solid white;
+    padding: 5px;
+    font-size: 10px;
+    float: left;
+    border-radius: 5px;
+    position: relative;
+    bottom: 80px;
+}
+.back:hover{
+    background-color: blueviolet;
+    border: 2px solid blueviolet;
+    color: white;
+}

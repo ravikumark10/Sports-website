@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sports Registration</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body id="reg1">
+        <a class="back" href="sportslist.html">Go back</a>
+        <div id="reg" class="signup">
+            <h1>Sport Registration</h1>
+            <form action="sportsreg.php" method="POST">
+                <label>First Name</label>
+                <input type="text" placeholder="" name="firstName" required>
+                <label>Last Name</label>
+                <input type="text" placeholder="" name="lastName" required>
+                <label>Email</label>
+                <input type="email" placeholder="" name="email" required>
+                <label>Age</label>
+                <input type="number" placeholder="" name="age" required>
+                <label>Date of birth</label>
+                <input type="date" placeholder="" name="dob" required>
+                <label>Father's Name</label>
+                <input type="text" placeholder="" name="fatherName" required>
+                <label>Father's Occupation</label>
+                <input type="text" placeholder="" name="fatheroccupation" required>
+                <label>Profession</label>
+                <input type="text" placeholder="" name="profession" required>
+                <label>Club</label>
+                <select name="club">
+                    <option  value="football">Football</option>
+                    <option  value="volleyBall">VolleyBall</option>
+                    <option  value="basketBall">Basketball</option>
+                    <option  value="handBall">Handball</option>
+                    <option  value="ballBadminton">Ball Badminton</option>
+                    <option  value="cricket">Cricket</option>
+                    <option  value="kabbadi">Kabbadi</option>
+                    <option  value="athletics">Athletics</option>
+                </select>
+                <label>State</label>
+                <input type="text" placeholder="" name="state" required>
+                <label>City</label>
+                <input type="text" placeholder="" name="city" required>
+                <label>Address</label>
+                <input type="text" placeholder="" name="address" required>
+                <label>Contact</label>
+                <input type="number" placeholder="" name="contact" required>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </body>
+</html>
